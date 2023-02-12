@@ -1,0 +1,396 @@
+@media (max-width: 1280px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 1024px) {
+  html {
+    font-size: 45%;
+  }
+  .container {
+    padding: 0px 1.5rem;
+  }
+}
+@media (max-width: 660px) {
+  html {
+    font-size: 60%;
+  }
+  header .container {
+    padding: 0px 1.5rem;
+    align-items: center;
+    height: 100%;
+  }
+  .menu {
+    display: block;
+  }
+  .logo img {
+    height: 4rem;
+  }
+  header .links {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: calc(100vh - 8rem);
+    position: fixed;
+    top: 8rem;
+    background: rgba(0, 0, 0, 0.72);
+    backdrop-filter: blur(15px);
+    width: 100%;
+    padding: 5rem 0px;
+    left: 0px;
+    transition: all 0.3s ease 0s;
+    transform: translateX(100%);
+  }
+  .active {
+    transform: translateX(0%) !important;
+  }
+  header .links a {
+    color: white;
+  }
+  section {
+    padding: 5rem 0px;
+    overflow: hidden;
+  }
+  [class*="grid"],
+  .wraper,
+  .row,
+  .verifying .grid-2 {
+    gap: 5rem;
+    grid-template-columns: 1fr !important;
+  }
+  .vs {
+    gap: 3rem !important;
+  }
+  .compair {
+    width: 8rem;
+    top: unset;
+    bottom: -5rem;
+    right: unset;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3rem;
+  }
+  .grid-item h3 {
+    font-size: 3rem;
+  }
+  .fix {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  main {
+    padding-bottom: 3rem;
+  }
+
+  main .content h1,
+  .typo h1 {
+    text-align: center;
+    font-size: 4rem !important;
+    width: 100%;
+  }
+  .typo h2 {
+    text-align: center;
+    font-size: 2rem !important;
+    margin-top: 1rem !important;
+  }
+  main .content p {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .checking h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .checking form {
+    max-width: 100%;
+  }
+  .checking .item {
+    gap: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .checking button {
+    margin: auto;
+    width: 100%;
+  }
+  .checking p {
+    font-weight: 400;
+    font-size: 1.3rem !important;
+  }
+  .grid-item {
+    padding: 3rem;
+  }
+  .grid-item .content h2 {
+    font-size: 3rem;
+  }
+  .newsletter .grid-2 {
+    grid-template-columns: 1fr !important;
+  }
+  .grid-2 {
+    gap: 3rem;
+  }
+  main .wraper .mobile-view {
+    display: none;
+  }
+  .gx h2 {
+    font-size: 2rem !important;
+  }
+  .auth {
+    padding: 5rem 3rem !important;
+  }
+  .auth img {
+    width: 15rem !important;
+    top: -5rem !important;
+    right: 3rem !important;
+  }
+  .portal p,
+  .portal p a {
+    font-size: 1.6rem !important;
+  }
+  .packages,
+  .pay .grid-2 {
+    gap: 2rem !important;
+  }
+  .checking form label {
+    text-align: left !important;
+  }
+  .package h2 {
+    font-size: 3rem;
+  }
+  .package p {
+    font-size: 1.8rem;
+  }
+  .block-title {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .pay label h3 {
+    font-size: 2.5rem;
+  }
+  .pay label p {
+    font-size: 1.8rem;
+  }
+  .typo {
+    margin-bottom: 5rem !important;
+  }
+  .number-package h2 {
+    font-size: 5rem;
+  }
+  .number-package h3 {
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+  .db button {
+    margin: auto;
+  }
+  .methods h3 {
+    font-size: 1.8rem;
+  }
+  .digital-contract {
+    max-width: 100%;
+  }
+  .digital-contract .block {
+    padding: 3rem;
+  }
+  .block article h2 {
+    font-size: 2.5rem;
+  }
+  .block article p {
+    font-size: 1.8rem;
+  }
+  .card .head h3 {
+    font-size: 2.5rem;
+  }
+  .card .body h4 {
+    font-size: 2rem;
+  }
+  .card .body h5 {
+    font-size: 1.8rem;
+  }
+  .digital-contract .flex h2,
+  .digital-contract .flex span {
+    font-size: 2.5rem;
+  }
+  .accept-tos {
+    align-items: flex-start;
+  }
+  .card-wraper .overlay {
+    position: absolute;
+    right: -10rem;
+    top: 20%;
+    transform: translateY(-80%);
+    width: 20rem;
+  }
+  .digital-contract .flx {
+    gap: 1.5rem;
+    flex-direction: column !important;
+  }
+  .digital-contract button {
+    width: 100%;
+  }
+  .accept-tos p {
+    font-size: 1.5rem;
+  }
+  footer .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+  .row-2 {
+    justify-content: center;
+  }
+  footer .logo img {
+    height: 5rem;
+  }
+  footer .right img {
+    width: 15rem;
+  }
+  .typo3 {
+    width: 100%;
+    margin: 3rem 0px;
+  }
+  .typo3 h2 {
+    font-size: 3rem !important;
+  }
+  .typo3 h3 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .grid-2 .grid-item .bottom {
+    margin-top: 3rem;
+  }
+  .grid-2 .grid-item .bottom p {
+    font-size: 1.6rem;
+  }
+  .grid-2 .grid-item .bottom span {
+    display: inline;
+    font-size: 1.6rem;
+  }
+  .explore {
+    gap: 1.5rem !important;
+  }
+  .explore .card h3 {
+    font-size: 2.5rem;
+  }
+  .typo3 h2 {
+    text-align: center;
+  }
+  .tgl p {
+    font-size: 1.8rem;
+  }
+  .typo.t2 {
+    text-align: center;
+  }
+  .typo.t2 h2 {
+    font-size: 3rem !important;
+  }
+  .typo.t2 h3 {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+  .typo.t2 button {
+    margin: 2rem auto auto;
+  }
+  .gx {
+    gap: 2rem !important;
+  }
+  .typo h1 {
+    width: 100% !important;
+  }
+  .modal .verify-another {
+    padding: 5rem 2rem;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 1rem;
+  }
+  .modal .verify-another .filds {
+    width: 100%;
+  }
+  .verify-another h3 {
+    font-size: 2.5rem;
+  }
+  .sub-titles {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 1.1;
+  }
+  .grid-2.adj h3 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .grid-2.adj h3 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .grid-2.adj h3 a {
+    font-size: 2.5rem;
+  }
+  .gx h4 {
+    font-size: 1.8rem;
+  }
+  .payment-module .layout {
+    flex-direction: column;
+  }
+  .progress-bar {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    align-items: flex-start;
+  }
+  .progress p::before {
+    display: none;
+  }
+  .progress-no {
+    width: 5rem;
+  }
+  .progress p {
+    font-weight: 500;
+    font-size: 1.3rem;
+  }
+  .main-layout-page {
+    padding: 5rem 2rem;
+  }
+  .progress-content .grid-2 {
+    gap: 0;
+  }
+  .progress-content button {
+    width: 100%;
+  }
+  .progress.active .progress-no span {
+    font-size: 3rem;
+  }
+  #card-type {
+    gap: 2rem;
+  }
+  .progress-content .module h4 {
+    font-size: 3rem;
+  }
+  .dashboard-layout,
+  .grid-3,
+  .dashboard-layout.limes,
+  .layout-block.service,
+  .layout-block.info {
+    grid-template-columns: 1fr;
+    gap: 2rem !important;
+  }
+  .flex {
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .flex h2 {
+    margin: unset !important;
+  }
+  .flex i {
+    font-size: 2.5rem;
+  }
+  .typo {
+    margin-bottom: 2rem !important;
+  }
+  .wrapers {
+    width: 80rem;
+  }
+  .transactions {
+    overflow-x: scroll;
+    padding-bottom: 2rem;
+  }
+}

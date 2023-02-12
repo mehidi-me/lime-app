@@ -14,14 +14,12 @@ const router = createBrowserRouter([
         element: <Home />
     },
     {
-        path: "lime-app",
-        element: <Home />
-    },
-    {
         path: "failed",
         element: <Failed />,
     },
-]);
+],
+    { basename: "/lime-app" }
+);
 
 function Navigate() {
     return (

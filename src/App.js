@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React update ci cd
+          Learn React update ci cd again
         </a>
       </header>
     </div>

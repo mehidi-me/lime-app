@@ -1,0 +1,205 @@
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex i {
+  font-size: 5rem;
+  cursor: pointer;
+}
+.flex span {
+  font-weight: 600;
+}
+.dashboard-layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+.layout-block {
+  background: white;
+  border-radius: 3rem;
+  border: 1px solid black;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+.layout-block .item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  border-top: 1px solid black;
+  height: 100%;
+}
+.layout-block h2 {
+  padding: 1rem 3rem;
+  text-align: center;
+  font-size: 2rem;
+  background: var(--light);
+}
+.layout-block button {
+  border-radius: unset;
+  border-right: unset;
+  border-bottom: unset;
+  border-left: unset;
+  border-image: unset;
+  width: 100%;
+  background: var(--light);
+  border-top: 1px solid black;
+  gap: 1rem;
+}
+.layout-block button i {
+  font-size: 2rem;
+}
+.layout-block h3 {
+  font-size: 8rem;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid black;
+}
+.layout-block .item p {
+  font-weight: 400;
+}
+.layout-block .item i {
+  font-size: 2rem;
+}
+.trending {
+  background: var(--primary);
+  padding: 3rem 1rem;
+  border-radius: 3rem;
+  border: 1px solid black;
+  margin-top: 2rem;
+}
+.trending h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.trending .grid-3 > div {
+  padding: 2rem;
+  border-radius: 3rem;
+  background: white;
+  border: 1px solid black;
+}
+.trending .grid-3 > div h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.typo {
+  margin-bottom: 2rem;
+}
+.dashboard-layout.limes {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.layout-block.info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 3rem;
+  gap: 2rem;
+}
+.layout-block.info h3 {
+  font-size: 3rem;
+  display: unset;
+  line-height: 1;
+  border: unset;
+  font-weight: 600;
+}
+.layout-block.info p {
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+.layout-block.balance {
+  background: var(--primary);
+  padding: 3rem;
+}
+.layout-block.balance h3 {
+  border: unset;
+  justify-content: flex-start;
+  text-align: left;
+  line-height: 1;
+  font-weight: 600;
+}
+.layout-block.balance p {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.layout-block.service {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  background: unset;
+  border: unset;
+  overflow: unset;
+}
+.layout-block.service .item-box {
+  background: var(--light);
+  padding: 2rem;
+  border-radius: 3rem;
+  border: 1px solid black;
+}
+.layout-block.service .item-box input {
+  border: 1px solid black;
+}
+.layout-block.service .item-box p {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  line-height: 1;
+}
+.layout-block.service .item-box button {
+  border: 1px solid black;
+  border-radius: 5rem;
+  background: white;
+  width: fit-content;
+  margin-top: 2rem;
+}
+.transactions .item {
+  background: white;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 1.5rem 3rem;
+  border: 1px solid black;
+  border-radius: 5rem;
+  margin-top: 1.5rem;
+}
+.transactions .item:first-child {
+  background: var(--primary);
+}
+.transactions .item .first {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 5rem;
+}
+.transactions .item .end {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+.transactions p {
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.more {
+  margin-top: 3rem;
+}
+.layout-block .item p {
+  display: flex;
+  align-items: center;
+}
+.acc-status .item {
+  display: grid;
+  grid-template-columns: 1fr 15rem;
+}

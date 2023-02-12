@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lime-app/static/css/main.fc0706bd.css",
-    "main.js": "/lime-app/static/js/main.bf92a006.js",
+    "main.js": "/lime-app/static/js/main.6932596b.js",
     "static/media/device.png": "/lime-app/static/media/device.a6f068ea029c61527709.png",
     "static/media/Isometric Stickers Target.png": "/lime-app/static/media/Isometric Stickers Target.4b097e135c3c22460bc2.png",
     "static/media/hero.svg": "/lime-app/static/media/hero.16a0bc1f32b7dd81f3552a7a3dcb4bb8.svg",
@@ -12,10 +12,10 @@
     "static/media/coin.svg": "/lime-app/static/media/coin.8c9285de4188b51f5338e54885a5b737.svg",
     "index.html": "/lime-app/index.html",
     "main.fc0706bd.css.map": "/lime-app/static/css/main.fc0706bd.css.map",
-    "main.bf92a006.js.map": "/lime-app/static/js/main.bf92a006.js.map"
+    "main.6932596b.js.map": "/lime-app/static/js/main.6932596b.js.map"
   },
   "entrypoints": [
     "static/css/main.fc0706bd.css",
-    "static/js/main.bf92a006.js"
+    "static/js/main.6932596b.js"
   ]
 }

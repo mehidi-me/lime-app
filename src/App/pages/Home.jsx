@@ -98,7 +98,7 @@ function Home() {
                         </div>
                     </div>
                     <center>
-                        <a href="#"><button className="mt5">see our packages</button></a>
+                        <a ><button className="mt5">see our packages</button></a>
                     </center>
                 </div>
             </section>

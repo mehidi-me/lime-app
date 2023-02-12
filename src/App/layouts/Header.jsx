@@ -9,11 +9,11 @@ function Header() {
                     <img src={Logo} alt="" />
                 </div>
                 <div className="links">
-                    <a href onclick="menu()">Home</a>
-                    <a href onclick="menu()">Link</a>
-                    <a href onclick="menu()">Link</a>
-                    <a href onclick="menu()">Link</a>
-                    <a href="signin.html" onclick="menu()">
+                    <a onclick="menu()">Home</a>
+                    <a onclick="menu()">Link</a>
+                    <a onclick="menu()">Link</a>
+                    <a onclick="menu()">Link</a>
+                    <a onclick="menu()">
                         <button className="empty">Signup</button>
                     </a>
                 </div>

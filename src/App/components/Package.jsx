@@ -1,4 +1,5 @@
 import React from 'react'
+import Collapsible from './Collapsible'
 
 function Package() {
     return (
@@ -9,42 +10,11 @@ function Package() {
                     <p>Day/Night anytime data</p>
                 </div>
                 <div className="tgl-main">
-                    <div className="tgl">
-                        <div className="collaps">
-                            <p>
-                                Starts at <span>R599</span> once-off supplied over
-                                <span>3 months</span>
-                            </p>
-                            <i className="uil uil-angle-up" />
-                        </div>
-                        <div className="ans active">
-                            <p>You’ll earn 63 Limes = R63</p>
-                        </div>
-                    </div>
-                    <div className="tgl">
-                        <div className="collaps">
-                            <p>
-                                Starts at <span>R1150</span> once-off supplied over
-                                <span>3 months</span>
-                            </p>
-                            <i className="uil uil-angle-down" />
-                        </div>
-                        <div className="ans">
-                            <p>You’ll earn 63 Limes = R63</p>
-                        </div>
-                    </div>
-                    <div className="tgl">
-                        <div className="collaps">
-                            <p>
-                                Starts at <span>R2250</span> once-off supplied over
-                                <span>12 months</span>
-                            </p>
-                            <i className="uil uil-angle-down" />
-                        </div>
-                        <div className="ans">
-                            <p>You’ll earn 63 Limes = R63</p>
-                        </div>
-                    </div>
+
+                    <Collapsible price="R599" time="3 months" ans="You’ll earn 63 Limes = R63" />
+                    <Collapsible price="R1150" time="3 months" ans="You’ll earn 63 Limes = R63" />
+                    <Collapsible price="R1150" time="12 months" ans="You’ll earn 63 Limes = R63" />
+
                 </div>
             </div>
             <div className="package-wrap">
@@ -54,42 +24,12 @@ function Package() {
                     <div className="trend">Trending</div>
                 </div>
                 <div className="tgl-main">
-                    <div className="tgl">
-                        <div className="collaps">
-                            <p>
-                                Starts at <span>R499</span> once-off supplied over
-                                <span>3 months</span>
-                            </p>
-                            <i className="uil uil-angle-up" />
-                        </div>
-                        <div className="ans active">
-                            <p>You’ll earn 38 Limes = R38</p>
-                        </div>
-                    </div>
-                    <div className="tgl">
-                        <div className="collaps">
-                            <p>
-                                Starts at <span>R950</span> once-off supplied over
-                                <span>6 months</span>
-                            </p>
-                            <i className="uil uil-angle-down" />
-                        </div>
-                        <div className="ans">
-                            <p>You’ll earn 63 Limes = R63</p>
-                        </div>
-                    </div>
-                    <div className="tgl">
-                        <div className="collaps">
-                            <p>
-                                Starts at <span>R1850</span> once-off supplied over
-                                <span>12 months</span>
-                            </p>
-                            <i className="uil uil-angle-down" />
-                        </div>
-                        <div className="ans">
-                            <p>You’ll earn 63 Limes = R63</p>
-                        </div>
-                    </div>
+
+                    <Collapsible price="R499" time="3 months" ans="You’ll earn 38 Limes = R38" />
+                    <Collapsible price="R950" time="6 months" ans="You’ll earn 63 Limes = R63" />
+                    <Collapsible price="R1850" time="12 months" ans="You’ll earn 63 Limes = R63" />
+
+
                 </div>
             </div>
         </div>

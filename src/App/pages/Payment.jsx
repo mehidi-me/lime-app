@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Layouts from '../layouts'
 import Mobile from "../images/Isometric Stickers Mobile.png"
+import { useNavigate } from 'react-router-dom';
 
 
 function Payment() {
+    const [activeTab, setActiveTab] = useState(1);
+    const navigate = useNavigate()
     return (
         <Layouts FooterImage={Mobile}>
             <main>
@@ -11,21 +14,21 @@ function Payment() {
                     <div className="payment-module">
                         <div className="layout">
                             <div className="progress-bar">
-                                <div className="progress active">
+                                <div className={activeTab > 1 ? "progress active" : "progress"}>
                                     <div className="progress-no">
                                         <b>1</b>
                                         <span className="material-icons"> check </span>
                                     </div>
                                     <p>Personal</p>
                                 </div>
-                                <div className="progress">
+                                <div className={activeTab === 3 ? "progress active" : "progress"}>
                                     <div className="progress-no">
                                         <b>2</b>
                                         <span className="material-icons"> check </span>
                                     </div>
                                     <p>Payment</p>
                                 </div>
-                                <div className="progress">
+                                <div className={activeTab === 3 ? "progress active" : "progress"}>
                                     <div className="progress-no">
                                         <b>3</b>
                                         <span className="material-icons"> check </span>
@@ -34,7 +37,7 @@ function Payment() {
                                 </div>
                             </div>
                             <div className="main-layout-page">
-                                <div className="progress-content">
+                                <div className={activeTab === 1 ? "progress-content active" : "progress-content"}>
                                     <h3>Personal Details</h3>
                                     <div className="module">
                                         <div className="grid-2">
@@ -53,10 +56,10 @@ function Payment() {
                                                 <input type="text" placeholder="Address" />
                                             </div>
                                         </div>
-                                        <button>Next</button>
+                                        <button onClick={() => setActiveTab(2)}>Next</button>
                                     </div>
                                 </div>
-                                <div className="progress-content active">
+                                <div className={activeTab === 2 ? "progress-content active" : "progress-content"}>
                                     <h3>Payment</h3>
                                     <div className="module">
                                         <div className="grid-2" id="card-type">
@@ -95,10 +98,10 @@ function Payment() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <button>Pay Now</button>
+                                        <button onClick={() => setActiveTab(3)}>Pay Now</button>
                                     </div>
                                 </div>
-                                <div className="progress-content">
+                                <div className={activeTab === 3 ? "progress-content active" : "progress-content"}>
                                     <h3>You are awsome!</h3>
                                     <div className="module">
                                         <h4>Thank you so much</h4>
@@ -108,7 +111,7 @@ function Payment() {
                                             magnam cupiditate quisquam. Recusandae accusantium
                                             laboriosam sequi fuga quos porro soluta maxime sit?
                                         </p>
-                                        <button>Go to dashboard</button>
+                                        <button onClick={() => navigate('/dashboard')}>Go to dashboard</button>
                                     </div>
                                 </div>
                             </div>

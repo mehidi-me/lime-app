@@ -1,6 +1,7 @@
 import React from 'react'
 import Layouts from '../layouts'
 import Mobile from "../images/Isometric Stickers Mobile.png"
+import TextInput from '../components/TextInput'
 
 
 function Signup() {
@@ -18,16 +19,15 @@ function Signup() {
                                 <h2 className="block-title">Personal</h2>
                                 <div className="filds">
                                     <div className="fild">
-                                        <input type="text" placeholder="Name" />
-                                        <span className="material-icons"> cancel </span>
+                                        <TextInput type="text" placeholder="Name" />
                                     </div>
                                     <div className="fild">
-                                        <input type="text" placeholder="Surname" />
-                                        <span className="material-icons"> cancel </span>
+                                        <TextInput type="text" placeholder="Surname" />
+
                                     </div>
                                     <div className="fild">
-                                        <input type="number" placeholder="ID Number" />
-                                        <span className="material-icons"> cancel </span>
+                                        <TextInput type="number" placeholder="ID Number" />
+
                                     </div>
                                 </div>
                             </div>
@@ -35,12 +35,12 @@ function Signup() {
                                 <h2 className="block-title">Contact</h2>
                                 <div className="filds">
                                     <div className="fild">
-                                        <input type="tel" placeholder="Contact number" />
-                                        <span className="material-icons"> cancel </span>
+                                        <TextInput type="tel" placeholder="Contact number" />
+
                                     </div>
                                     <div className="fild">
-                                        <input type="email" placeholder="Email address" />
-                                        <span className="material-icons"> cancel </span>
+                                        <TextInput type="email" placeholder="Email address" />
+
                                     </div>
                                 </div>
                             </div>
@@ -48,12 +48,12 @@ function Signup() {
                                 <h2 className="block-title">Choose your password</h2>
                                 <div className="filds">
                                     <div className="fild">
-                                        <input type="password" placeholder="Enter password" />
-                                        <span className="material-icons"> cancel </span>
+                                        <TextInput type="password" placeholder="Enter password" />
+
                                     </div>
                                     <div className="fild">
-                                        <input type="password" placeholder="Confirm password" />
-                                        <span className="material-icons"> cancel </span>
+                                        <TextInput type="password" placeholder="Confirm password" />
+
                                     </div>
                                 </div>
                             </div>

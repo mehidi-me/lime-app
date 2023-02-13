@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Layouts from '../layouts'
 import Charts from "../images/Isometric Stickers Charts.png"
 import Airplane from "../images/Isometric Stickers Paper Airplane.png"
 
 function Signin() {
+    const [passHide, setPassHide] = useState(true);
     return (
         <Layouts FooterImage={Airplane}>
             <main>
@@ -21,8 +22,9 @@ function Signin() {
                                     <input type="text" placeholder="Username" />
                                 </div>
                                 <div className="fild">
-                                    <input type="password" placeholder="Password" />
-                                    <i className="uil uil-meh-closed-eye" />
+                                    <input type={passHide ? "password" : 'text'} placeholder="Password" />
+
+                                    <i className={passHide ? "uil-meh-closed-eye" : "uil uil-smile"} onClick={() => setPassHide(pre => !pre)} />
                                 </div>
                                 <a className="forgot">Forgot password?</a>
                                 <button className="sign-in" name="submit">Sign in</button>

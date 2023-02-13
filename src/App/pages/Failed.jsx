@@ -2,6 +2,7 @@ import React from 'react'
 import Layouts from '../layouts'
 import Mobile from "../images/Isometric Stickers Mobile.png"
 import Package from '../components/Package'
+import TextInput from '../components/TextInput'
 
 function Failed() {
     return (
@@ -22,8 +23,7 @@ function Failed() {
                         <div>
                             <div className="filds">
                                 <div className="fild">
-                                    <input type="text" placeholder="Address" />
-                                    <span className="material-icons"> cancel </span>
+                                    <TextInput type="text" placeholder="Address" />
                                 </div>
                             </div>
                             <div className="map">

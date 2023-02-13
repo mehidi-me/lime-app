@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Layouts from '../layouts'
 import Charts from "../images/Isometric Stickers Charts.png"
 import Airplane from "../images/Isometric Stickers Paper Airplane.png"
+import { Link } from 'react-router-dom';
 
 function Signin() {
     const [passHide, setPassHide] = useState(true);
@@ -31,7 +32,7 @@ function Signin() {
                             </form>
                             <p>
                                 Not part of the Limes family yet? <br />
-                                <a href>Verify your number</a> to join the fam.
+                                <Link to="/">Verify your number</Link> to join the fam.
                             </p>
                         </div>
                     </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Layouts from '../layouts'
 import Mobile from "../images/Isometric Stickers Mobile.png"
+import Package from '../components/Package'
 
 function Failed() {
     return (
@@ -12,97 +13,7 @@ function Failed() {
                         <h2>Looks like it’s time to upgrade to a prepaid MTN SIM.</h2>
                     </div>
                     <h3 className="sub-titles">Here’s what you’re missing out on:</h3>
-                    <div className="grid-2 packages" style={{ border: 'unset', paddingTop: 'unset' }}>
-                        <div className="package-wrap">
-                            <div className="package">
-                                <h2>20GB / 20GB</h2>
-                                <p>Day/Night anytime data</p>
-                            </div>
-                            <div className="tgl-main">
-                                <div className="tgl">
-                                    <div className="collaps">
-                                        <p>
-                                            Starts at <span>R599</span> once-off supplied over
-                                            <span>3 months</span>
-                                        </p>
-                                        <i className="uil uil-angle-up" />
-                                    </div>
-                                    <div className="ans active">
-                                        <p>You’ll earn 63 Limes = R63</p>
-                                    </div>
-                                </div>
-                                <div className="tgl">
-                                    <div className="collaps">
-                                        <p>
-                                            Starts at <span>R1150</span> once-off supplied over
-                                            <span>3 months</span>
-                                        </p>
-                                        <i className="uil uil-angle-down" />
-                                    </div>
-                                    <div className="ans">
-                                        <p>You’ll earn 63 Limes = R63</p>
-                                    </div>
-                                </div>
-                                <div className="tgl">
-                                    <div className="collaps">
-                                        <p>
-                                            Starts at <span>R2250</span> once-off supplied over
-                                            <span>12 months</span>
-                                        </p>
-                                        <i className="uil uil-angle-down" />
-                                    </div>
-                                    <div className="ans">
-                                        <p>You’ll earn 63 Limes = R63</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="package-wrap">
-                            <div className="package">
-                                <h2>10GB / 20GB</h2>
-                                <p>Day/Night anytime data</p>
-                                <div className="trend">Trending</div>
-                            </div>
-                            <div className="tgl-main">
-                                <div className="tgl">
-                                    <div className="collaps">
-                                        <p>
-                                            Starts at <span>R499</span> once-off supplied over
-                                            <span>3 months</span>
-                                        </p>
-                                        <i className="uil uil-angle-up" />
-                                    </div>
-                                    <div className="ans active">
-                                        <p>You’ll earn 38 Limes = R38</p>
-                                    </div>
-                                </div>
-                                <div className="tgl">
-                                    <div className="collaps">
-                                        <p>
-                                            Starts at <span>R950</span> once-off supplied over
-                                            <span>6 months</span>
-                                        </p>
-                                        <i className="uil uil-angle-down" />
-                                    </div>
-                                    <div className="ans">
-                                        <p>You’ll earn 63 Limes = R63</p>
-                                    </div>
-                                </div>
-                                <div className="tgl">
-                                    <div className="collaps">
-                                        <p>
-                                            Starts at <span>R1850</span> once-off supplied over
-                                            <span>12 months</span>
-                                        </p>
-                                        <i className="uil uil-angle-down" />
-                                    </div>
-                                    <div className="ans">
-                                        <p>You’ll earn 63 Limes = R63</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <Package />
                     <div className="typo t2">
                         <h2>Come on, join the club!</h2>
                         <h3>Find your nearest MTN branch</h3>

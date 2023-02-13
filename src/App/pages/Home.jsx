@@ -6,6 +6,7 @@ import Coin from "../images/coin.svg"
 import Coins from "../images/coins.svg"
 import Stikers from "../images/Isometric Stickers Target.png"
 import Rocket from "../images/Isometric Stickers Rocket.png"
+import Checking from '../components/Checking';
 
 function Home() {
     return (
@@ -29,24 +30,7 @@ function Home() {
                             <div className="content">
                                 <h2>Check if your number qualifies for our packages</h2>
                             </div>
-                            <div className="checking">
-                                <form action="#">
-                                    <label htmlFor="num">Add up to three numbers</label>
-                                    <div className="item">
-                                        <div className="input">
-                                            <input type="tel" placeholder="Enter number here" />
-                                            <div className="cut">
-                                                <span className="material-icons"> cancel </span>
-                                            </div>
-                                        </div>
-                                        <div className="add">
-                                            <span className="material-icons-outlined"> add </span>
-                                        </div>
-                                    </div>
-                                    <button>Verify</button>
-                                    <p>Deals only available prepaid MTN customers</p>
-                                </form>
-                            </div>
+                            <Checking />
                         </div>
                     </div>
                     <div className="typo typo3">

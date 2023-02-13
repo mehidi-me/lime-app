@@ -5,10 +5,11 @@ import Device from "../images/device.png"
 import Coin from "../images/coin.svg"
 import Coins from "../images/coins.svg"
 import Stikers from "../images/Isometric Stickers Target.png"
+import Rocket from "../images/Isometric Stickers Rocket.png"
 
 function Home() {
     return (
-        <Layouts>
+        <Layouts FooterImage={Rocket}>
             <main>
                 <div className="container">
                     <div className="wraper">

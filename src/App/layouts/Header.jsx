@@ -12,12 +12,12 @@ function Header() {
                     </Link>
                 </div>
                 <div className="links">
-                    <a onclick="menu()">Home</a>
-                    <a onclick="menu()">Link</a>
-                    <a onclick="menu()">Link</a>
-                    <a onclick="menu()">Link</a>
 
-                    <Link to="/failed"><button className="empty">Signup</button></Link>
+                    <Link to="/">Home</Link>
+                    <Link to="/payment">Payment</Link>
+                    <Link to="/packages">Packages</Link>
+                    <Link to="/signin">SignIn</Link>
+                    <Link to="/signup"><button className="empty">Signup</button></Link>
                 </div>
                 <i className="uil uil-align-center-alt menu" onclick="menu()" />
             </div>

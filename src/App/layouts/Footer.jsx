@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import FooterImage from "../images/Isometric Stickers Rocket.png";
 import Logo from "../images/SVG/limes_white.svg"
 
@@ -12,16 +13,16 @@ function Footer({ FImage = FooterImage }) {
                     </div>
                     <div className="row-2">
                         <div className="link">
-                            <a >Link</a>
-                            <a >Link</a>
-                            <a >Link</a>
-                            <a >Link</a>
+                            <Link to="/failed">Failed</Link>
+                            <Link to="/final-touch">Final Touch</Link>
+                            <Link to="/go-to-dashboard">Go To Dashboard</Link>
+                            <Link to="/opps">Opps</Link>
                         </div>
                         <div className="link">
-                            <a >Link</a>
-                            <a >Link</a>
-                            <a >Link</a>
-                            <a >Link</a>
+                            <Link to="/verified">Verified</Link>
+                            <Link to="/dashboard">Dashboard</Link>
+                            <Link to="/dashboard1">Dashboard One</Link>
+                            <Link to="/dashboard2">Dashboard Tow</Link>
                         </div>
                     </div>
                 </div>
